@@ -1,0 +1,49 @@
+﻿@using AmazonLite.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*model AmazonLite.Models.ProdList*@
+@model IEnumerable<AmazonLite.Models.ProdList>
+
+@* <a asp-controller="Home" asp-action="Index"></a>
+<a asp-controller="Home" asp-action="AboutUs"></a>
+<a asp-controller="Product" asp-action="Index"></a>
+
+
+<h1>@TempData.Peek("Age").ToString()</h1>
+@{
+    // List<string> listval = (List<string>) @ViewData["Title"];
+
+    List<string> listval = ViewBag.UserNames;
+    foreach(var item in listval)
+    {
+        <h1>@item</h1>
+    }
+
+    
+} *@
+@* @{
+    var brand = (BrandList)ViewBag.BrandData;
+} *@
+@* <p>@brand.BrandID</p>
+<p>@brand.BrandName</p> *@
+@{
+       @ViewData["Welcome"]
+    foreach(var item in Model)
+    {
+
+        @Html.Partial("_ItemPartial",item)
+
+        // <div class="card" style="width:400px">
+        //     <img class="card-img-top" src="~/ListOfProducts/@item.ProdImage" alt="Card image">
+        //     <div class="card-body">
+        //         <h2 class="card-title">@item.ProdName</h2>
+        //         <h4 class="card-text">@item.ProdType</h4>
+        //         <p class="card-text">@item.ProdInfo</p>
+
+        //         <a href="/Home/Prod/@item.ProdName?Pid=@item.ProdId" class="btn btn-primary">See Details</a>
+        //     </div>
+        // </div>
+    }
+
+
+}
+

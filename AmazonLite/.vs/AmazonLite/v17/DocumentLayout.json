@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|c:\\users\\pavithra\\source\\repos\\amazonlite\\amazonlite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8AC56A59-505E-4925-8EAD-1E308A8206EA}|AmazonLite.csproj|solutionrelative:amazonlite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "AppDBContext.cs",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\AppDBContext.cs",
+              "RelativeToolTip": "AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:12:38.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T15:08:16.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T09:22:38.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T09:21:43.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T15:12:28.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AmazonLite.csproj",
+              "DocumentMoniker": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\AmazonLite.csproj",
+              "RelativeDocumentMoniker": "AmazonLite.csproj",
+              "ToolTip": "C:\\Users\\PAVITHRA\\source\\repos\\AmazonLite\\AmazonLite.csproj",
+              "RelativeToolTip": "AmazonLite.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T06:23:05.999Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

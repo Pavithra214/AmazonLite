@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model AmazonLite.Models.ProdList
+@{
+}
+
+
+<div class="card" style="width:400px">
+    <img class="card-img-top" src="~/ListOfProducts/@Model.ProdImage" alt="Card image">
+    <div class="card-body">
+        <h2 class="card-title">@Model.ProdName</h2>
+        <h4 class="card-text">@Model.ProdType</h4>
+        <p class="card-text">@Model.ProdInfo</p>
+
+        <a href="/Home/Prod/@Model.ProdName?Pid=@Model.ProdId" class="btn btn-primary">See Details</a>
+    </div>
+</div>
+

@@ -1,0 +1,102 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@* 
+<h1>Product Details</h1>
+<h1>@TempData["Age"]</h1>
+<h1>@ViewData["Title"]</h1>
+<h1>@TempData["Age"]</h1> *@
+
+@model AmazonLite.Models.ProdList;
+
+@* @Html.DisplayForModel(); *@
+
+@* @Html.DisplayFor(x=>x.ProdName) *@
+
+
+@* @Html.EditorForModel() *@
+
+@* @Html.EditorFor(x=>x.ProdName) *@
+
+
+@* <form method="post" action="SaveData">
+    @Html.EditorForModel()
+    <input type="Submit" name="save" value="SaveData" />
+    <input type="Submit" name="delete" value="DeleteData" />
+    <input type="Submit" name="clear" value="ClearData" />
+
+</form> *@
+
+@* 
+@using(Html.BeginForm())
+{
+    @Html.EditorForModel() *@
+@*     <input type="Submit" name="save" value="SaveData" formaction="SaveData" formmethod="post"/>
+    <input type="Submit" name="delete" value="DeleteData" formaction="DeleteData" formmethod="post" />
+    <input type="Submit" name="clear" value="ClearData" formaction="ClearData" formmethod="post" /> *@
+
+ @*    <input type="Submit" asp-action="SaveData" asp-controller="Product" name="save" value="SaveData"   />
+    <input type="Submit" asp-action="DeleteData" name="delete" value="DeleteData"  />
+    <input type="Submit" asp-action="ClearData" name="clear" value="ClearData"  />
+} *@
+
+
+
+
+@* <h2>Insert Product</h2>
+
+@using (Html.BeginForm("SaveData", "ProdList", FormMethod.Post))
+{
+    @Html.EditorForModel() <!-- Dynamically generates input fields for all model properties -->
+    <br />
+    <input asp-action="SaveData" asp-controller="Product" type="submit" class="btn btn-primary" />
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <p class="text-success">@TempData["SuccessMessage"]</p>
+}
+
+
+<h2>Delete Product</h2>
+
+@using (Html.BeginForm("DeleteData", "ProdList", FormMethod.Post))
+{
+    @Html.EditorForModel() <!-- Dynamically generates input fields for all model properties -->
+    <br />
+    <input asp-action="DeleteData" asp-controller="Product" type="submit" class="btn btn-primary" />
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <p class="text-success">@TempData["SuccessMessage"]</p>
+} *@
+
+
+
+<h2>Manage Product</h2>
+
+@using (Html.BeginForm("HandleForm", "ProdList", FormMethod.Post))
+{
+    @Html.EditorForModel() <!-- Dynamically generates input fields for all model properties -->
+    <br />
+
+    <!-- Button for Insert Product -->
+    <input asp-action="HandleForm" name="action" value="SaveData" asp-controller="Product" type="submit" class="btn btn-primary" />
+
+    <!-- Button for Delete Product -->
+    <input asp-action="HandleForm" name="action" value="DeleteData" asp-controller="Product" type="submit" class="btn btn-primary" />
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <p class="text-success">@TempData["SuccessMessage"]</p>
+}
+
+
+
+
+   
+
+

@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model AmazonLite.Models.ProdList
+
+<form > 
+    <div>
+        @Html.DisplayFor(x=>x.ProdId)
+    </div>
+    <div>
+        <label asp-for="ProdName"></label>
+        <input asp-for="ProdName" />
+        <span asp-validation-for="ProdName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ProdInfo"></label>
+        <input asp-for="ProdInfo" />
+        <span asp-validation-for="ProdInfo" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ProdType"></label>
+        <input asp-for="ProdType" />
+        <span asp-validation-for="ProdType" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ProdImage"></label>
+        <input asp-for="ProdImage" />
+        <span asp-validation-for="ProdImage" class="text-danger"></span>
+    </div>
+   
+    <button type="submit" asp-action="SaveData" asp-controller="User" method="post" value="Register">Register</button>
+    <button type="submit" asp-action="DeleteData" asp-controller="User" asp-route-id="@Model.ProdId" value="Delete">Delete</button>
+    <button type="submit" asp-action="UpdateData" asp-controller="User" formmethod="post" asp-route-id="@Model.ProdId" value="Update">Update</button>
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+</form>
